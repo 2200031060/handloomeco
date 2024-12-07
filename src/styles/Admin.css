@@ -1,0 +1,171 @@
+/* Admin.css */
+
+/* General Container */
+.container {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  .product-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .product-item {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .product-item button {
+    margin-left: 10px;
+  }
+  
+  .product-form-section {
+    margin-top: 20px;
+  }
+  
+  .product-form input {
+    padding: 8px;
+    margin: 5px;
+    width: 250px;
+  }
+  
+  .product-form button {
+    padding: 8px 15px;
+    margin: 5px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .product-form button:hover {
+    background-color: #218838;
+  }
+  
+  .btn-delete {
+    background-color: red;
+  }
+  
+  .btn-delete:hover {
+    background-color: #d9534f;
+  }
+  
+  .btn-edit {
+    background-color: orange;
+    color: white;
+  }
+  
+  .btn-edit:hover {
+    background-color: #e67e22;
+  }
+  
+  .btn-update {
+    background-color: #007bff;
+  }
+  
+  .btn-update:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-cancel {
+    background-color: #6c757d;
+  }
+  
+  .btn-cancel:hover {
+    background-color: #5a6268;
+  }
+  
+  /* Admin Dashboard Styling */
+  .admin-dashboard {
+    text-align: center;
+    margin: 50px;
+  }
+  
+  .admin-dashboard h1 {
+    font-size: 32px;
+    color: #333;
+  }
+  
+  .product-list {
+    padding-left: 0;
+  }
+  
+  .product-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .product-item button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .product-form input {
+    padding: 8px;
+    margin: 5px;
+    width: 250px;
+    border: 1px solid #ccc;
+  }
+  
+  .product-form button {
+    padding: 8px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .product-form button:hover {
+    background-color: #218838;
+  }
+  
+  .product-form button:focus {
+    outline: none;
+  }
+  
+  .product-form-section {
+    margin-top: 30px;
+  }
+  
+  .product-form-section h3 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .btn-add {
+    background-color: #28a745;
+    margin-top: 10px;
+  }
+  
+  .btn-add:hover {
+    background-color: #218838;
+  }
+  
+  .btn-update {
+    background-color: #007bff;
+  }
+  
+  .btn-update:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-cancel {
+    background-color: #6c757d;
+    margin-left: 10px;
+  }
+  
+  .btn-cancel:hover {
+    background-color: #5a6268;
+  }
+  
